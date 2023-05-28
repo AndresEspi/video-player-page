@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Video Player</title>
+    <style>
+      #navbar {
+        background-color: #f2f2f2;
+        height: 50px;
+        padding: 10px;
+      }
+      #video-container {
+        width: 70%;
+        float: left;
+      }
+      #sidebar {
+        width: 30%;
+        float: right;
+        background-color: #f2f2f2;
+        padding: 10px;
+      }
+      #video-title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      #video-description {
+        font-size: 16px;
+      }
+      #views {
+        font-size: 14px;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h1 id ="contenido">contenido</h1>>
+    </div>
+    <div id="video-container">
+      <!-- Aquí iría el reproductor de video de YouTube -->
+      <iframe width="560" height="315" src="https://youtu.be/Id-rOy9BUzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <!-- Aquí irían los detalles del video -->
+      <h1 id="video-title">Título del video</h1>
+      <p id="video-description">Descripción del video</p>
+      <p id="views">100,000 vistas • Hace 1 semana</p>
+    </div>
+    <div id="sidebar">
+      <!-- Aquí irían las miniaturas de los videos sugeridos -->
+      <img src="https://via.placeholder.com/150x100" alt="Miniatura del video sugerido">
+      <img src="https://via.placeholder.com/150x100" alt="Miniatura del video sugerido">
+      <img src="https://via.placeholder.com/150x100" alt="Miniatura del video sugerido">
+    </div>
+  </body>
+</html>
